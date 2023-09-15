@@ -17,8 +17,8 @@ public partial class TDBGetData
 
         Utils.LogGetData($"{args.MsgID}={(int)args.MsgID}", new Dictionary<object, object>()
         {
-            { "x", x  },
-            { "y", y  },
+            { "x", x },
+            { "y", y },
         });
     }
 
@@ -36,11 +36,11 @@ public partial class TDBGetData
 
         Utils.LogGetData($"{args.MsgID}={(int)args.MsgID}", new Dictionary<object, object>()
         {
-            { "chestID", chestID  },
-            { "itemSlot", itemSlot},
-            { "stack", stack},
-            { "prefix", prefix},
-            { "itemID", itemID},
+            { "chestIndex", chestID },
+            { "itemSlot", itemSlot },
+            { "stack", stack },
+            { "prefix", prefix },
+            { "itemID", itemID },
         });
     }
 
@@ -69,12 +69,14 @@ public partial class TDBGetData
 
         Utils.LogGetData($"{args.MsgID}={(int)args.MsgID}", new Dictionary<object, object>()
         {
-            { "chestID", chestID  },
-            { "x", x},
-            { "y", y},
-            { "nameLength", nameLength},
-            { "name", name}
+            { "chestIndex", chestID },
+            { "x", x },
+            { "y", y },
+            { "nameLength", nameLength },
+            { "name", name }
         });
+
+
     }
 
 
@@ -91,11 +93,11 @@ public partial class TDBGetData
 
         Utils.LogGetData($"{args.MsgID}={(int)args.MsgID}", new Dictionary<object, object>()
         {
-            { "chestID", chestID  },
-            { "x", x},
-            { "y", y},
-            { "style", style},
-            { "chestID", chestID  },
+            { "action", action },
+            { "x", x },
+            { "y", y },
+            { "style", style },
+            { "chestIndex", chestID },
         });
     }
 
